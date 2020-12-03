@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CalculatorDisplay from "../components/calculator/CalculatorDisplay";
 import Keypad from "../components/calculator/Keypad";
-import SezzleLogo from "../components/calculator/SezzleLogo";
+import Title from "../components/calculator/Title";
 import Card from "react-bootstrap/Card";
 import { API_ROOT, HEADERS } from "./../constants";
 
@@ -68,7 +68,7 @@ class Calculator extends Component {
       <Card className="calculatorContainer" bg={variant.toLowerCase()}>
         <Card.Body>
           <Card.Text>
-            <SezzleLogo />
+            <Title />
           </Card.Text>
           <Card.Text>
             <CalculatorDisplay result={this.state.result} />

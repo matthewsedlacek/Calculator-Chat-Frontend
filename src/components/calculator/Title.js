@@ -1,7 +1,6 @@
 import React from "react";
-import logo from "../../logo.svg";
 
-const SezzleLogo = (props) => {
+const Title = (props) => {
   return (
     <div>
       <a
@@ -9,12 +8,10 @@ const SezzleLogo = (props) => {
         rel="noopener noreferrer"
         target="_blank"
       >
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h4 style={{ color: "white" }}>Calculator Chat</h4>
       </a>
-      {/* <h7 style={{ color: "white" }}>By Matthew Sedlacek</h7> */}
     </div>
   );
 };
 
-export default SezzleLogo;
+export default Title;

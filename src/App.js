@@ -57,6 +57,7 @@ export default class App extends Component {
             <TextField
               variant="outlined"
               margin="normal"
+              inputProps={{ style: { color: "white" } }}
               required
               fullWidth
               type="text"
